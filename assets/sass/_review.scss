@@ -9,14 +9,17 @@
     margin-top: 0px !important;
 
     @media #{$small_mobile} {
-     overflow: hidden;
+      overflow: hidden;
     }
 
-    @media #{$large_mobile} {}
+    @media #{$large_mobile} {
+    }
 
-    @media #{$tab_device} {}
+    @media #{$tab_device} {
+    }
 
-    @media #{$medium_device} {}
+    @media #{$medium_device} {
+    }
 
     img {
       width: 100%;
@@ -31,11 +34,14 @@
     overflow: hidden;
   }
 
-  @media #{$large_mobile} {}
+  @media #{$large_mobile} {
+  }
 
-  @media #{$tab_device} {}
+  @media #{$tab_device} {
+  }
 
-  @media #{$medium_device} {}
+  @media #{$medium_device} {
+  }
 }
 
 .client_review_text {
@@ -89,7 +95,7 @@
     border-radius: 100%;
     text-indent: -9999px;
   }
-    
+
   .slick-active button {
     @extend %custom_btn_bg_2;
   }
@@ -103,15 +109,15 @@
 
   }
   @media #{$large_mobile}{
-  
+
   }
   @media #{$tab_device}{
     margin: 54px 40px 20px;
   }
   @media #{$medium_device}{
-  
+
   }
-  
+
   img {
     max-width: 100%;
     margin: 0 auto;

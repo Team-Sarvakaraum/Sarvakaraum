@@ -1,32 +1,33 @@
 /*=================== contact banner start ====================*/
 
-.contact-info{
+.contact-info {
   margin-bottom: 25px;
 
-  &__icon{
+  &__icon {
     margin-right: 20px;
 
-    i,span{
+    i, span {
       color: #8f9195;
       font-size: 27px;
     }
   }
 
-  .media-body{
+  .media-body {
 
-    h3{
+    h3 {
       font-size: 16px;
       margin-bottom: 0;
       font-size: 16px;
       color: #2a2a2a;
-      a{
-        &:hover{
+
+      a {
+        &:hover {
           color: $btn_bg;
         }
       }
     }
 
-    p{
+    p {
       color: #8a8a8a;
     }
   }
@@ -36,26 +37,27 @@
 
 
 /*=================== contact form start ====================*/
-.contact-title{
+.contact-title {
   font-size: 27px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.form-contact{
+.form-contact {
 
-  label{
+  label {
     font-size: 14px;
   }
 
-  .form-group{
+  .form-group {
     margin-bottom: 30px;
-    .btn_1{
+
+    .btn_1 {
       margin-bottom: -30px;
     }
   }
 
-  .form-control{
+  .form-control {
     border: 1px solid #f0e9ff;
     border-radius: 5px;
     height: 48px;
@@ -63,18 +65,18 @@
     font-size: 13px;
     background: transparent;
 
-    &:focus{
+    &:focus {
       outline: 0;
       box-shadow: none;
     }
 
-    &::placeholder{
+    &::placeholder {
       font-weight: 300;
       color: #999999;
     }
   }
 
-  textarea{
+  textarea {
     border-radius: 12px;
     height: 100% !important;
   }
@@ -85,37 +87,41 @@
 }
 
 @media #{$small_mobile}{
-  .contact-section{
+  .contact-section {
     .btn_1 {
       margin-bottom: 0px !important;
       margin-top: 0px !important;
     }
   }
 }
+
 @media #{$large_mobile}{
-  .contact-section{
+  .contact-section {
     .btn_1 {
       margin-bottom: 0px !important;
       margin-top: 0px !important;
     }
   }
 }
+
 @media #{$tab_device}{
-  .contact-section{
+  .contact-section {
     .btn_1 {
       margin-bottom: 0px !important;
       margin-top: 0px !important;
     }
   }
 }
+
 @media #{$medium_device}{
-  .contact-section{
+  .contact-section {
     .btn_1 {
       margin-bottom: 0px !important;
       margin-top: 0px !important;
     }
   }
 }
+
 /*=================== contact form end ====================*/
 
 /* Contact Success and error Area css
@@ -123,39 +129,43 @@
 
 
 .modal-message {
-    .modal-dialog {
-        position: absolute;
-        top: 36%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%) !important;
-        margin: 0px;
-        max-width: 500px;
-        width: 100%;
-        .modal-content {
-            .modal-header {
-                text-align: center;
-                display: block;
-                border-bottom: none;
-                padding-top: 50px;
-                padding-bottom: 50px;
-                .close {
-                    position: absolute;
-                    right: -15px;
-                    top: -15px;
-                    padding: 0px;
-                    color: #fff;
-                    opacity: 1;
-                    cursor: pointer;
-                }
-                h2 {
-                    display: block;
-                    text-align: center;
-                    padding-bottom: 10px;
-                }
-                p {
-                    display: block;
-                }
-            }
+  .modal-dialog {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) !important;
+    margin: 0px;
+    max-width: 500px;
+    width: 100%;
+
+    .modal-content {
+      .modal-header {
+        text-align: center;
+        display: block;
+        border-bottom: none;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .close {
+          position: absolute;
+          right: -15px;
+          top: -15px;
+          padding: 0px;
+          color: #fff;
+          opacity: 1;
+          cursor: pointer;
         }
+
+        h2 {
+          display: block;
+          text-align: center;
+          padding-bottom: 10px;
+        }
+
+        p {
+          display: block;
+        }
+      }
     }
+  }
 }

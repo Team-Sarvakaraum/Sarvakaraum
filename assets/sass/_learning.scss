@@ -15,6 +15,7 @@
   @media #{$medium_device}{
     padding: 70px 0px;
   }
+
   .learning_img {
     @include background("../img/learning_img_bg.png");
     background-size: 70% 100%;
@@ -44,6 +45,7 @@
       bottom: -43px;
       left: -80px;
     }
+
     img {
       padding: 0px 53px 64px 50px;
       @media #{$small_mobile}{
@@ -56,7 +58,7 @@
         padding: 0;
       }
       @media #{$medium_device}{
-      
+
       }
     }
   }
@@ -150,7 +152,8 @@
         margin-bottom: 20px;
       }
 
-      @media #{$medium_device} {}
+      @media #{$medium_device} {
+      }
     }
 
     ul {
@@ -171,7 +174,8 @@
         margin-bottom: 20px;
       }
 
-      @media #{$medium_device} {}
+      @media #{$medium_device} {
+      }
 
       li {
         display: inline-block;
@@ -258,6 +262,7 @@
   @media #{$medium_device}{
     padding: 70px 0px;
   }
+
   .learning_img {
     @include background("../img/advance_feature_bg.png");
     background-size: 84% 100%;
@@ -292,6 +297,7 @@
       bottom: 0;
       margin-bottom: 20px;
     }
+
     img {
       padding: 0px 117px 0px 0px;
       @media #{$small_mobile}{
@@ -304,13 +310,14 @@
         padding: 0px;
       }
       @media #{$medium_device}{
-      
+
       }
     }
-   
+
   }
-  .learning_member_text_iner{
-    span{
+
+  .learning_member_text_iner {
+    span {
       height: 60px;
       width: 60px;
       line-height: 60px;
@@ -334,13 +341,15 @@
         margin-bottom: 10px;
       }
       @media #{$medium_device}{
-      
+
       }
     }
-    .ti-stamp{
+
+    .ti-stamp {
       background-color: #fff0e0;
     }
-    h4{
+
+    h4 {
       font-size: 20px;
       font-weight: 600;
       margin-bottom: 17px;
@@ -354,7 +363,7 @@
         margin-bottom: 10px;
       }
       @media #{$medium_device}{
-      
+
       }
     }
   }

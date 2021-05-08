@@ -24,9 +24,11 @@
       column-count: 1;
     }
 
-    @media #{$tab_device} {}
+    @media #{$tab_device} {
+    }
 
-    @media #{$medium_device} {}
+    @media #{$medium_device} {
+    }
 
     .blockquote {
       padding: 0px 10px 21px 0px;
@@ -42,6 +44,7 @@
       @media #{$medium_device}{
         padding: 0px 10px 0px 0px;
       }
+
       h2 {
         font-size: 45px;
         margin-bottom: 13px;
