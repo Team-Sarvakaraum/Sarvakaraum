@@ -16,22 +16,22 @@ if (document.getElementsByClassName('demo').length > 0) {
             शून्य swap(पूर्णांक , पूर्णांक );
             पूर्णांक मुख्य ()
             {
-                पूर्णांक  x, y;
-                प्रिंटफ("Enter the value of x and y");
-                स्कैनफ("%d%d",&x,&y);
-                प्रिंटफ("Before Swapping x = %d and y = %d ", x, y);
-                swap(& x, & y);
-                प्रिंटफ("After Swapping x = %d and y = %d ", x, y);
-                वापसी 0;
+                ` + Array(5).fill('\xa0').join('') + `पूर्णांक  x, y;
+                ` + Array(5).fill('\xa0').join('') + `प्रिंटफ("Enter the value of x and y");
+                ` + Array(5).fill('\xa0').join('') + `स्कैनफ("%d%d",&x,&y);
+                ` + Array(5).fill('\xa0').join('') + `प्रिंटफ("Before Swapping x = %d and y = %d ", x, y);
+                ` + Array(5).fill('\xa0').join('') + `swap(& x, & y);
+                ` + Array(5).fill('\xa0').join('') + `प्रिंटफ("After Swapping x = %d and y = %d ", x, y);
+                ` + Array(5).fill('\xa0').join('') + `वापसी 0;
             }
             शून्य swap (पूर्णांक *a, पूर्णांक *b)
             {
-                पूर्णांक  temp;
-                temp = *b;
-                *b = *a;
-                *a = temp;
+                ` + Array(5).fill('\xa0').join('') + `पूर्णांक  temp;
+                ` + Array(5).fill('\xa0').join('') + `temp = *b;
+                ` + Array(5).fill('\xa0').join('') + `*b = *a;
+                ` + Array(5).fill('\xa0').join('') + `*a = temp;
             }`;
-  var speed = 60;
+  var speed = 1;
 
   function typeItOut () {
     if (i < txt.length) {

@@ -53,13 +53,13 @@
                                 <a class="nav-link" href="about.html">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="cource.html">Courses</a>
+                                <a class="nav-link" href="cource.html">Languages</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="Programmer.html">Programmer</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="blog123.html">Blog</a>
+                                <a class="nav-link" href="blog.html">Blog</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
@@ -67,9 +67,7 @@
                             <li class="d-none d-lg-block">
                                 <a href="#" class="genric-btn info-border radius">हिन्दी</a>
                             </li>
-                            <li class="d-none d-lg-block">
-                                <a class="btn_1" >Sign Up</a>
-                            </li>
+
                         </ul>
                     </div>
                 </nav>
