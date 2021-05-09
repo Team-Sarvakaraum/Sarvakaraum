@@ -1,6 +1,7 @@
 /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
-    background-image: url("https://sarvakaraum.s3.amazonaws.com/image/favicon.png");
+    background-image: url("https://i.ibb.co/ZS5mcGt/favicon-69x74.png");
+    background-color: #ffffff;
     padding: 16px 20px;
     border: none;
     cursor: pointer;
@@ -10,6 +11,7 @@
     right: 28px;
     height: 74px;
     width: 69px;
+    border-radius: 50%
 }
 
 /* The popup chat - hidden by default */
@@ -60,7 +62,7 @@
 
 /* Add a red background color to the cancel button */
 .form-container .cancel {
-    background-color: #f63d3d;
+    background-color: #f04d0d;
 }
 
 /* Add some hover effects to buttons */
